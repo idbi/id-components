@@ -1,0 +1,51 @@
+{
+  "name": "id-components",
+  "version": "0.0.2",
+  "description": "id components",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ID-BI/id-components.git"
+  },
+  "keywords": [
+    "ID",
+    "IDBI",
+    "COMPONENTS"
+  ],
+  "author": "A-S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ID-BI/id-components/issues"
+  },
+  "homepage": "https://github.com/ID-BI/id-components#readme",
+  "devDependencies": {
+    "@types/jest": "25.1.4",
+    "@types/react": "16.9.23",
+    "@types/styled-components": "5.0.1",
+    "codecov": "3.6.5",
+    "jest": "25.1.0",
+    "prettier": "1.19.1",
+    "prop-types": "15.7.2",
+    "react": "16.13.0",
+    "styled-components": "5.0.1",
+    "ts-jest": "25.2.1",
+    "tslint": "6.1.0",
+    "tslint-config-prettier": "1.18.0",
+    "typescript": "3.8.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
