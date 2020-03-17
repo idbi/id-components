@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { Svg } from './style';
-export interface IconProps {
+interface IconProps {
   children: any;
   color?: string;
   size?: number;
