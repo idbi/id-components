@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as PropTypes from 'prop-types';
 
 import { Wrapper, GifImage } from './style';
-import loader from '../../static/miniloading.gif';
+import * as loader from '../../static/miniloading.gif';
 
 interface IMiniLoader {
   style?: object;
