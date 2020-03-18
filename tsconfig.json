@@ -2,16 +2,6 @@
   "compilerOptions": {
     "target": "es5",
     "lib": ["es6"],
-
-    "allowJs": true,
-    "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-
     "module": "commonjs",
     "declaration": true,
     "strict": true,
