@@ -1,6 +1,6 @@
 {
   "name": "id-components",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "id components",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
