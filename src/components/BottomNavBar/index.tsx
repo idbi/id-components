@@ -10,7 +10,7 @@ interface IOption {
   value: string;
   icon: any;
   action(): any;
-  subOptions: IOptions;
+  subOptions?: IOptions;
 }
 
 interface IOptions extends Array<IOption> {}
